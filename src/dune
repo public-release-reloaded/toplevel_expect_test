@@ -7,5 +7,6 @@
    compiler-libs.common ppx_expect.runtime ppxlib ppxlib.ast
    core_unix.sys_unix threads toplevel_backend toplevel_expect_test_types
    unix)
+ (flags (:standard -alert -deprecated))
  (preprocess
   (pps ppx_jane ppx_optcomp)))
